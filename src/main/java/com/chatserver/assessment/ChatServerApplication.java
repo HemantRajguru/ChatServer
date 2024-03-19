@@ -1,3 +1,4 @@
+package src.main.java.com.chatserver.assessment;
 
 
 import org.springframework.boot.SpringApplication;
@@ -6,9 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-public class ChatServerApplication.java {
+public class ChatServerApplication {
 
     public static void main(String args[]) {
-        SpringApplication.run(ChatServerApplication.java.class, args);
+        SpringApplication.run(ChatServerApplication.class, args);
     }
 }
